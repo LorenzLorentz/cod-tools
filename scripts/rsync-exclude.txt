@@ -1,0 +1,21 @@
+# tools/scripts/remote.sh 同步到服务器时排除的文件：本地产物、Vivado 生成的目录、个人配置
+.git
+**/.git
+.gitmodules
+build/
+obj_dir/
+.lint/
+__pycache__/
+*.pyc
+thinpad_top.cache/
+thinpad_top.gen/
+thinpad_top.hw/
+thinpad_top.ip_user_files/
+thinpad_top.runs/
+thinpad_top.sim/
+.Xil/
+*.jou
+*.log
+*.str
+flow.env
+.DS_Store
