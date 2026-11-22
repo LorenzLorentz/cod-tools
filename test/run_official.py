@@ -229,7 +229,7 @@ def main():
             print((res.stdout + res.stderr)[-3000:])
         ok &= mon
 
-    print("\nWORK: %s" % ("PASS" if ok else "FAIL"))
+    print("\nOFFICIAL: %s" % ("PASS" if ok else "FAIL"))
     return 0 if ok else 1
 
 
